@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Gezdir Beni</string>
+    <string name="login_btn_label">Login</string>
+    <string name="id_tw_label">Username: </string>
+    <string name="pw_tw_label">Password: </string>
+</resources>

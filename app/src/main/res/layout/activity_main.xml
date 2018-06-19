@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:text="@string/login_btn_label"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/tvID_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etID_label"
+        android:layout_toStartOf="@+id/etPW_label"
+        android:text="@string/id_tw_label"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="108dp"
+        android:layout_toLeftOf="@+id/etPW_label" />
+
+    <TextView
+        android:id="@+id/tvPW_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etPW_label"
+        android:layout_alignStart="@+id/tvID_label"
+        android:text="@string/pw_tw_label"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="169dp"
+        android:layout_alignLeft="@+id/tvID_label" />
+
+    <EditText
+        android:id="@+id/etPW_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/etID_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+</RelativeLayout>
